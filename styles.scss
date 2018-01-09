@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.on-map {
+    position: absolute;
+    z-index: 1000;
+}
+
+.map-button {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+
+.leaflet-clickable {
+    cursor: crosshair !important;
+}
+
+.leaflet-container {
+    cursor: help !important;
+}
+
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-right: 30px !important;
+    margin-bottom: 25px !important;
+}
+
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.legend {
+    text-align: left;
+    line-height: 18px;
+    color: #555;
+}
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.small-bubble {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 5px !important;
+    float: left;
+    margin-left: 10px;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.medium-bubble {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 10px !important;
+    margin-left: 5px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.legend div {
+    margin-bottom: 10px;
+}
+
+.large-bubble {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 15px !important;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    background: #040000 !important;
+    color: #f00a0a !important;
+}
+
+.full-page-map {
+    .leaflet-top {
+        top: 100px !important;
+    }
+    .leaflet-bottom {
+        bottom: 30px !important;
+    }
+}
+
+.unique_counts {
+    display: flex;
+    align-items: center;
+}
+
+.unique_counts div {
+    width: 80px;
+    float: left;
+    margin-bottom: 0px;
+}
+
+.unique_counts span {
+    font-weight: bold;
+}
+
+#search-map .leaflet-top {
+    top: 10px !important;
+}
+
+#search-map .leaflet-bottom {
+    bottom: 0px !important;
+}
+
+.noPadding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.datatable-group-header {
+    background: none !important;
+    height: 50px;
+    border: none !important;
+    .header {
+        padding: 10px 10px;
+        float: left;
+        border: 1px solid black;
+        margin: 5px;
+    }
+}
